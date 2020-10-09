@@ -17,6 +17,7 @@ namespace WindowsFormsApp1
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
            
+
             createHero ch = new createHero();
             MainPresenter mp = new MainPresenter(ch);
 
